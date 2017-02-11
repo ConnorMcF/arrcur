@@ -2,6 +2,8 @@
 
 Iterates over an array and callsback on completion.
 
+[![CircleCI](https://circleci.com/gh/ConnorMcF/arrcur.svg?style=svg)](https://circleci.com/gh/ConnorMcF/arrcur)
+
 ## Installation
 
 Using npm:
