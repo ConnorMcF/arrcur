@@ -1,0 +1,14 @@
+{
+	"name": "arrcur",
+	"version": "1.0.0",
+	"description": "Run through arrays and complete",
+	"main": "app.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"author": "Connor McFarlane <connormcfarlane10> (https://connormcf.com)",
+	"license": "ISC",
+	"devDependencies": {
+		"mocha": "^3.2.0"
+	}
+}
