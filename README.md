@@ -1,6 +1,6 @@
-# arrcur v1.0.0
+# arrcur v1.0.1
 
-Iterates over an array and callsback on completion.
+Iterates over an array and calls back on completion.
 
 [![CircleCI](https://circleci.com/gh/ConnorMcF/arrcur.svg?style=svg)](https://circleci.com/gh/ConnorMcF/arrcur)
 
@@ -16,14 +16,23 @@ npm install arrcur --save
 In Node.js:
 ```js
 var arrcur = require('arrcur');
+
 arrcur([1, 2, 3, 4, 5, 6], function(val, key) {
 	console.log(val, key);
 }, function() {
 	console.log('Done!');
 });
+
+// arrcur(value, each, done);
 ```
 
-Accepted types:
+Parameters:
+- value - object to iterate
+- each - callback for each item
+- done - callback on last item
+
+
+Accepted value types:
 - Arrays - each value
 - Objects - each value
 - Strings - each character

@@ -1,10 +1,14 @@
 {
 	"name": "arrcur",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Run through arrays and complete",
 	"main": "app.js",
 	"scripts": {
 		"test": "mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ConnorMcF/arrcur"
 	},
 	"author": "Connor McFarlane <connormcfarlane10> (https://connormcf.com)",
 	"license": "WTFPL",
