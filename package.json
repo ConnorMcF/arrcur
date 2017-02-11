@@ -1,6 +1,6 @@
 {
 	"name": "arrcur",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Run through arrays and complete",
 	"main": "app.js",
 	"scripts": {

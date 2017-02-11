@@ -1,4 +1,4 @@
-# arrcur v1.0.1
+# arrcur v1.0.2
 
 Iterates over an array and calls back on completion.
 
